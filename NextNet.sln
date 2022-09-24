@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextNet.Services", "NextNet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextNet.Tests", "NextNet.Tests\NextNet.Tests.csproj", "{6909FD99-02B7-4C65-8207-B9CB5BC735DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextNet.Web", "NextNet.Web\NextNet.Web.csproj", "{A1078C1F-6C6B-4767-97F8-71E3C26C6A6C}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "NextNet.Database", "NextNet.Database\NextNet.Database.sqlproj", "{D31A5BCD-78DE-4E03-8062-13AD538035C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,16 @@ Global
 		{6909FD99-02B7-4C65-8207-B9CB5BC735DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6909FD99-02B7-4C65-8207-B9CB5BC735DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6909FD99-02B7-4C65-8207-B9CB5BC735DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1078C1F-6C6B-4767-97F8-71E3C26C6A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1078C1F-6C6B-4767-97F8-71E3C26C6A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1078C1F-6C6B-4767-97F8-71E3C26C6A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1078C1F-6C6B-4767-97F8-71E3C26C6A6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D31A5BCD-78DE-4E03-8062-13AD538035C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D31A5BCD-78DE-4E03-8062-13AD538035C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D31A5BCD-78DE-4E03-8062-13AD538035C0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D31A5BCD-78DE-4E03-8062-13AD538035C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D31A5BCD-78DE-4E03-8062-13AD538035C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D31A5BCD-78DE-4E03-8062-13AD538035C0}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

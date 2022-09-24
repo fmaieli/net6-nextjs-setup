@@ -1,0 +1,20 @@
+{
+  "name": "client-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "SET NODE_TLS_REJECT_UNAUTHORIZED=0 && next dev",
+    "build": "next build && next export",
+    "start": "SET NODE_TLS_REJECT_UNAUTHORIZED=0 && next dev",
+    "lint": "eslint . --ext ts --ext tsx --ext js"
+  },
+  "dependencies": {
+    "next": "12.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.23.1",
+    "eslint-config-next": "12.3.1"
+  }
+}
